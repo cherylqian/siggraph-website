@@ -6,7 +6,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const Navigation = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
       <DefaultLayout exact path="/" component={App} />
       <DefaultLayout path="/projects" component={Construction} />
