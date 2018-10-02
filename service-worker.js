@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/siggraph-website/precache-manifest.fe3441909361da29158e561dad346b08.js"
+  "/siggraph-website/precache-manifest.b7b6f282f5846044e24b2b1add09e6e0.js"
 );
 
 workbox.clientsClaim();
