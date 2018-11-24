@@ -1,16 +1,19 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import App from "./App";
 import Header from "./Header";
 import Footer from "./Footer";
+
+import App from "./App";
+import Projects from "./Projects";
+import About from "./About";
 
 const Navigation = () => (
   <Router basename={process.env.PUBLIC_URL}>
     <div className="container">
       <DefaultLayout exact path="/" component={App} />
-      <DefaultLayout path="/projects" component={Construction} />
-      <DefaultLayout path="/about" component={Construction} />
+      <DefaultLayout path="/projects" component={Projects} />
+      <DefaultLayout path="/about" component={About} />
     </div>
   </Router>
 );

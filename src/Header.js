@@ -22,7 +22,7 @@ const Header = () => (
       id="navbarNav"
     >
       <div className="navbar-nav">
-        <NavLink to="/" className="nav-item nav-link">
+        <NavLink exact to="/" className="nav-item nav-link">
           Home
         </NavLink>
         <NavLink to="/projects" className="nav-item nav-link">
