@@ -7,10 +7,9 @@ import Footer from "./Footer";
 
 const Navigation = () => (
   <Router basename={process.env.PUBLIC_URL}>
-    <div>
+    <div className="container">
       <DefaultLayout exact path="/" component={App} />
       <DefaultLayout path="/projects" component={Construction} />
-      <DefaultLayout path="/news" component={Construction} />
       <DefaultLayout path="/about" component={Construction} />
     </div>
   </Router>
@@ -21,11 +20,11 @@ const DefaultLayout = ({ component: Component, ...rest }) => {
     <Route
       {...rest}
       render={matchProps => (
-        <div className="container">
+        <React.Fragment>
           <Header />
           <Component {...matchProps} />
           <Footer />
-        </div>
+        </React.Fragment>
       )}
     />
   );

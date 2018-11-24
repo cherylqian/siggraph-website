@@ -1,23 +1,47 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./styles/App.css";
-import Slider from "react-slick";
+
+import Background from "./Background";
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1
+};
 
 class App extends Component {
-  render() {
-    var settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
+  constructor(props) {
+    super(props);
+    this.state = {
+      width: 0,
+      height: 0
     };
+  }
+
+  updateDimensions = () => {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  };
+  componentWillMount = () => {
+    this.updateDimensions();
+  };
+  componentDidMount = () => {
+    window.addEventListener("resize", this.updateDimensions);
+  };
+  componentWillUnmount = () => {
+    window.removeEventListener("resize", this.updateDimensions);
+  };
+
+  render() {
     return (
       <div className="App">
-        <Slider {...settings} className="mb-5">
-          <img className="w-50" src={logo} alt="" />
-          <img className="w-50" src={logo} alt="" />
-        </Slider>
+        <div
+          className="center-container"
+          style={{ height: this.state.height * 0.9 }}
+        >
+          <h1 className="center w-100">SIGGRAPH @ UIUC</h1>
+        </div>
+        <Background />
       </div>
     );
   }
