@@ -2,14 +2,6 @@ import React, { Component } from "react";
 
 import Background from "./Background";
 
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1
-};
-
 class App extends Component {
   constructor(props) {
     super(props);
