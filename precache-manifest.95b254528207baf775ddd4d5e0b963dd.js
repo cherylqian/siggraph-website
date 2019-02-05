@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/siggraph-website/static/js/runtime~main.537fea25.js"
   },
   {
-    "revision": "ccba506a051bcb20aa90",
-    "url": "/siggraph-website/static/js/main.ccba506a.chunk.js"
+    "revision": "57e66edd6ce9e3b45f81",
+    "url": "/siggraph-website/static/js/main.57e66edd.chunk.js"
   },
   {
     "revision": "c1e4db510fe69ec2577c",
     "url": "/siggraph-website/static/js/1.c1e4db51.chunk.js"
   },
   {
-    "revision": "ccba506a051bcb20aa90",
+    "revision": "57e66edd6ce9e3b45f81",
     "url": "/siggraph-website/static/css/main.e9fa27d7.chunk.css"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/siggraph-website/static/css/1.3103c8c2.chunk.css"
   },
   {
-    "revision": "5567080290b1c5ea4f159622f388b27b",
+    "revision": "54f18fd630cf348881531e2fd139c01d",
     "url": "/siggraph-website/index.html"
   }
 ];

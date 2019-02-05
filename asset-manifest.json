@@ -1,16 +1,16 @@
 {
   "main.css": "/siggraph-website/static/css/main.e9fa27d7.chunk.css",
-  "main.js": "/siggraph-website/static/js/main.ccba506a.chunk.js",
-  "main.js.map": "/siggraph-website/static/js/main.ccba506a.chunk.js.map",
+  "main.js": "/siggraph-website/static/js/main.57e66edd.chunk.js",
+  "main.js.map": "/siggraph-website/static/js/main.57e66edd.chunk.js.map",
   "static/css/1.3103c8c2.chunk.css": "/siggraph-website/static/css/1.3103c8c2.chunk.css",
   "static/js/1.c1e4db51.chunk.js": "/siggraph-website/static/js/1.c1e4db51.chunk.js",
   "static/js/1.c1e4db51.chunk.js.map": "/siggraph-website/static/js/1.c1e4db51.chunk.js.map",
   "runtime~main.js": "/siggraph-website/static/js/runtime~main.537fea25.js",
   "runtime~main.js.map": "/siggraph-website/static/js/runtime~main.537fea25.js.map",
-  "static/media/index.scss": "/siggraph-website/static/media/slick.b7c9e1e4.woff",
+  "static/media/index.scss": "/siggraph-website/static/media/slick.ced611da.eot",
   "static/css/main.e9fa27d7.chunk.css.map": "/siggraph-website/static/css/main.e9fa27d7.chunk.css.map",
   "static/css/1.3103c8c2.chunk.css.map": "/siggraph-website/static/css/1.3103c8c2.chunk.css.map",
   "index.html": "/siggraph-website/index.html",
-  "precache-manifest.2b27ac98b42d980c34b9b8fd1e82a790.js": "/siggraph-website/precache-manifest.2b27ac98b42d980c34b9b8fd1e82a790.js",
+  "precache-manifest.95b254528207baf775ddd4d5e0b963dd.js": "/siggraph-website/precache-manifest.95b254528207baf775ddd4d5e0b963dd.js",
   "service-worker.js": "/siggraph-website/service-worker.js"
 }
