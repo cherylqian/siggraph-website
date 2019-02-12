@@ -36,7 +36,8 @@ export const projects = {
 };
 
 export const about = {
-  about: "some description of the club",
+  about:
+    "ACM SIGGRAPH is a nonprofit international membership organization made up of thousands of people who share a passion for computer graphics and interactive techniques. ACM SIGGRAPH members are involved in a wide variety of fields, including computer graphics research, software development, digital art, scientific visualization, interactive technology, game design, visual effects, computer science, education, engineering, graphic design, film and television production, scientific research and more.",
   exec: [
     {
       name: "name",
